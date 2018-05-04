@@ -1,18 +1,18 @@
 /*this function takes vowel as an input*/
-var words = function(vowel) {
-  if (vowel 
+
+var pingPong = function(ping) {
   return false;
 }
 
-$(document).ready(function() {
-  /*when you click on element button, class btn, the submit function is initiated*/
-  $("button.btn").submit(function(event) {
+$(document).ready(function(){
+  /*when you click on element button, class btn, id ping the submit function is initiated*/
+  $("form#enterPing").submit(function(event) {
     event.preventDefault();
-    /*vowel takes in input*/
-    var vowel = $("input#inputWord").val();
-    /*result is the output of the function words*/
-    var result = words (vowel) {
-
-    };
+    /*ping takes in input*/
+    var ping = parseInt($("input#ping").val());
+    /*result is the output of the function pingPong*/
+    var result = pingPong(ping);
+    // this line outputs to html
+    $("#result").text(result);
   });
 });
