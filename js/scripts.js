@@ -5,7 +5,10 @@ var pingPong = function(myNumber) {
   for (var newNumbers = 1; newNumbers <= myNumber; newNumbers += 1) {
     if (newNumbers % 3 == 0 && newNumbers % 5 != 0) {
       myArray.push("ping");
-    } else {
+    }else if (newNumbers % 5 == 0 && newNumbers % 3 == 0) {
+      myArray.push("pingpong");
+    }
+     else {
       myArray.push(newNumbers);
     }
   }
