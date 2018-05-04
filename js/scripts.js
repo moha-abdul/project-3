@@ -4,11 +4,12 @@ var pingPong = function(myNumber) {
   var myArray = [];
   for (var newNumbers = 1; newNumbers <= myNumber; newNumbers += 1) {
     if (newNumbers % 3 == 0 && newNumbers % 5 != 0) {
-      myArray.push("ping");
-    }else if (newNumbers % 5 == 0 && newNumbers % 3 == 0) {
-      myArray.push("pingpong");
-    }
-     else {
+        myArray.push("ping");
+    } else if (newNumbers % 5 == 0 && newNumbers % 3 == 0) {
+        myArray.push("pingpong");
+    } else if (newNumbers % 5 == 0 && newNumbers % 3 != 0) {
+        myArray.push("pong");
+    } else {
       myArray.push(newNumbers);
     }
   }
