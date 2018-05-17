@@ -21,6 +21,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ##Pingpong
 The project is a webpage that that gives the user a input form to enter a number. The webpage then displays all numbers from 1 to the user's number. Numbers divisible by 3 are replaced by ping, numbers divisible by 5 are replaced by pong and numbers divisible by both 3 and 5 are replaced by pingpong.
 
+### Site link
+
+https://moha-abdul.github.io/project-3/
 
 ###Prerequisites
 You need to install IDE(Atom) and web browser(Google Chrome).
@@ -47,4 +50,4 @@ Github versioning was used.
 Mohammed Abdullahi
 
 ###License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License
