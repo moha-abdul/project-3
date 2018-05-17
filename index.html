@@ -8,23 +8,39 @@
   <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>Pingpong</h1>
+  <div class="container-fluid">
+    <div class="jumbotron">
     </div>
+    <div class="background">
+    <div class="center">
 
-    <form action="" id="enterPing">
-      <label for="text">Please enter number</label>
-      <input type="text" id="myNumber">
-      <div id="">
-        <button type="submit" class="btn submitButton"><p>Submit</p></button>
+      <form action="" id="form">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" id="numberValue">
+            <label for="text">Enter number</label>
+
+          </div>
+
+          <div class="col-md-6">
+            <button type="submit" class="btn submitButton"><p>Submit</p></button>
+          </div>
+        </div>
+      </form>
+
+      <div class="main">
+        <div class="contents">
+          <ul id="output"></ul>
+        </div>
       </div>
-    </form>
+    </div>
+    </div>
+  </div>
 
-    <div id="result">
-      <p></p>
+    <div class="footer">
+      <p>Game by : Mohammed</p>
+      <p>2018</p>
     </div>
 
-  </div>
 </body>
 </html>
